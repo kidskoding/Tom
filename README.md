@@ -1,5 +1,5 @@
 # Tom
-To combat the excessive teacher shortage conflict in the United States, I created Tom, a combination of a virtual personal assistant (VPA) and a website that I created using Python Flask, OpenAI, Docker, Artificial Intelligence, Machine Learning, and Deep Learning. Tom was leveraged to reduce the burden teachers from grades K-12 face on a daily basis.
+To combat the excessive teacher shortage conflict in the United States, I created Tom, a combination of a voice assistant AI and a website that I created using Python, Django, OpenAI, Docker, Volt.js, Front-End Scripting Languages (HTML/CSS), Juypter Notebook, Artificial Intelligence, Machine Learning, and Deep Learning. Tom has been leveraged to reduce the burden teachers from grades K-12 face on a daily basis.
 <br />
 <br />
 Tom can conceptually be broken down into three parts: <b>eGrading</b>, <b>eTutoring</b>, and <b>eClassroom</b>.
