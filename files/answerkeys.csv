@@ -1,0 +1,5 @@
+TestId,answer1,points1,answer2,points2,answer3,points3,answer4,points4,answer5,points5
+0,AGB015,D,20,B,20,A,20,A,20,B,20
+1,AGB016,C,0,B,20,A,20,D,0,A,0
+2,AGBO13,-3,25,24,25,0,25,12,25
+3,MATO04,False,20,True,20,True,20,False,20,True,20

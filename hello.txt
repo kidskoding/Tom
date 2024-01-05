@@ -1,0 +1,52 @@
+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
+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
+
+
+def submit_chat():
+        if request.method == 'POST':
+            input_text = request.form.get("input_text")
+            return_text = call_dummy(input_text)
+
+                        # extract the text and display it
+            return render_template('home/etutor.html',
+                                    msg='Hello Student, your answer sheet is graded',
+                                    return_text=return_text)
+        elif request.method == 'GET':
+            return render_template('home/etutor.html') 
+
+# Call chatGPT function
+def call_dummy(input_text):
+    output_text = "Your response" + input_text
+
+    return output_text  
+
+
+
+def submit_chat1():
+    if request.method == "POST":
+        input_text = request.form.get("input_text")
+        response = openai.Completion.create(
+            model="text-davinci-002",
+            prompt=generate_prompt(input_text),
+            temperature=0.6,
+        )
+        result = response.choices[0].text
+        result = request.args.get("result")
+        return render_template('home/etutor.html',
+                                    msg='Hello Student, your answer sheet is graded',
+                                    return_text=result)
+    elif request.method == 'GET':
+        return render_template('home/etutor.html') 
+
+        
+
+def generate_prompt(input_text):
+    return """Suggest three names for an animal that is a superhero.
+Animal: Cat
+Names: Captain Sharpclaw, Agent Fluffball, The Incredible Feline
+Animal: Dog
+Names: Ruff the Protector, Wonder Canine, Sir Barks-a-Lot
+Animal: {}
+Names:""".format(
+        input_text.capitalize()
+    )
