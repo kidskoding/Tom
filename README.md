@@ -5,9 +5,11 @@ To combat the excessive teacher shortage conflict in the United States, I create
 Tom can conceptually be broken down into three parts: <b>eGrading</b>, <b>eTutoring</b>, and <b>eClassroom</b>.
 <br />
 <br />
+<!--
 <b>eClassroom</b>
 <br />
 <br />
+-->
 <b>IMPORTANT</b>
 <br>
 To run the website, please run the "run.py" file
