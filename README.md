@@ -16,4 +16,4 @@ To run the website, please run the "run.py" file
 <br>
 To run the voice assistant, please run the "tom.py" file
 <br><br>
-Fun Fact: I named my voice assistant Tom because it is the first three letters of my district name Tomball. Tom won the third-place award/trophy at the district science fair event and advanced to the Houston level!
+Fun Fact: I named my voice assistant Tom because it is the first three letters of my district name Tomball. Tom won the third-place award/trophy at the district-level science fair event and advanced to the Houston level!
