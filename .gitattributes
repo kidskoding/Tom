@@ -1,2 +1,12 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Set Python files as Python
+*.py linguist-language=Python
+
+# Set Jupyter Notebooks as Jupyter Notebook
+*.ipynb linguist-language=Jupyter Notebook
+
+# If there are any other file types like datasets, models, etc. that you want to treat differently,
+# you can define them here. For example:
+
+# Treat .csv files as data files
+*.csv linguist-documentation=true
+
