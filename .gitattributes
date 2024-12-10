@@ -4,6 +4,7 @@
 # Treat Jupyter Notebooks as Jupyter Notebook
 *.ipynb linguist-language=Jupyter Notebook
 
-# Ignore CSS files for language statistics
+# Ignore CSS, HTML, SCSS files for language statistics
 *.css linguist-vendored=true
-
+*.html linguist-vendored=true
+*.scss linguist-vendored=true
