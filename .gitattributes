@@ -1,10 +1,9 @@
-# Prioritize Python language over CSS
+# Prioritize Python language
 *.py linguist-language=Python
-*.css linguist-language=CSS
 
-# Set Jupyter Notebooks explicitly
+# Treat Jupyter Notebooks as Jupyter Notebook
 *.ipynb linguist-language=Jupyter Notebook
 
-# If CSS is still dominating, you can add it as a secondary language:
-*.html linguist-language=HTML
+# Ignore CSS files for language statistics
+*.css linguist-vendored=true
 
