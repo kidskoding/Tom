@@ -1,12 +1,10 @@
-# Set Python files as Python
+# Prioritize Python language over CSS
 *.py linguist-language=Python
+*.css linguist-language=CSS
 
-# Set Jupyter Notebooks as Jupyter Notebook
+# Set Jupyter Notebooks explicitly
 *.ipynb linguist-language=Jupyter Notebook
 
-# If there are any other file types like datasets, models, etc. that you want to treat differently,
-# you can define them here. For example:
-
-# Treat .csv files as data files
-*.csv linguist-documentation=true
+# If CSS is still dominating, you can add it as a secondary language:
+*.html linguist-language=HTML
 
